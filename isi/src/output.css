@@ -11,53 +11,20 @@
   padding: 10%;
 }
 
-/* 
-.tracking-out-contract {
-  -webkit-animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-  animation: tracking-out-contract 0.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-} 
-
-.text-focus_dua {
-  animation: text-focus 10s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-.text-focus_tiga {
-  animation: text-focus 20s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-.text-focus_empat {
-  animation: text-focus 30s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}*/
 .text-focus_satu {
-  animation: text-focus-in-satu 20s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-satu 20s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .text-focus_dua {
-  animation: text-focus-in-dua 30s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-dua 30s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .text-focus_tiga {
-  animation: text-focus-in-tiga 40s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-tiga 40s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .text-focus_empat {
-  animation: text-focus-in-empat 50s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: text-focus-empat 50s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 
-.text-focus_satu::after {
-  animation-duration: 80s;
-  animation: text-focus-out 80s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-.text-focus_dua::after {
-  animation-duration: 100s;
-  animation: text-focus-out 90s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-.text-focus_tiga::after {
-  animation-duration: 300s;
-  animation: text-focus-out 100s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-.text-focus_empat::after {
-  animation-duration: 500s;
-  animation-delay: 10s;
-  animation: text-focus-out 150s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-
-@-webkit-keyframes text-focus-in-satu {
+@-webkit-keyframes text-focus-satu {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -82,7 +49,7 @@
   }
 }
 
-@keyframes text-focus-in-satu {
+@keyframes text-focus-satu {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -107,7 +74,7 @@
   }
 }
 
-@-webkit-keyframes text-focus-in-dua {
+@-webkit-keyframes text-focus-dua {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -132,7 +99,7 @@
   }
 }
 
-@keyframes text-focus-in-dua {
+@keyframes text-focus-dua {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -157,7 +124,7 @@
   }
 }
 
-@-webkit-keyframes text-focus-in-tiga {
+@-webkit-keyframes text-focus-tiga {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -182,7 +149,7 @@
   }
 }
 
-@keyframes text-focus-in-tiga {
+@keyframes text-focus-tiga {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -207,7 +174,7 @@
   }
 }
 
-@-webkit-keyframes text-focus-in-empat {
+@-webkit-keyframes text-focus-empat {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
@@ -232,7 +199,7 @@
   }
 }
 
-@keyframes text-focus-in-empat {
+@keyframes text-focus-empat {
   0% {
     -webkit-filter: blur(12px);
     filter: blur(12px);
